@@ -1,3 +1,6 @@
 .flexbox {
 	display: flex;
+	margin-left: 9vw;
+	background-color: black;
+	color: grey;
 }
