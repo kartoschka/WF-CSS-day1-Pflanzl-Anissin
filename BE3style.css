@@ -1,0 +1,14 @@
+body {
+  background-color: #eef;
+}
+
+#summary {
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#text {
+  color: #100;
+  background-color: #fee;
+}
