@@ -11,18 +11,27 @@
 	font-size: 13px;
 }
 li {
-	list-item: none;
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+}
+#summary {
+	font-weight:  bold;
+}
+h1 {
+	border: solid blue;
 }
 </style>
 
 </head>
 <body>
-	<h1>EU verbietet Sonne</h1>
-	<li><span class="author">Fritzi</span></li>
-	<li><span class="author">Upsi</span></li>
+	<h1 style=border:solid black; border-width:1px;>EU verbietet Sonne</h1>
+	<li style=list-style:none><span class="author">Fritzi,</span></li>
+	<li><span class="author">Upsi,</span></li>
 	<li><span class="author">Mausi</span></li>
+	<br>
 	<p id="summary">Im Zuge der Klimaschutzmaßnahmen hat die EU beschlossen, auf energiesparende Lichtquellen umzustellen. Studien haben bewiesen, dass die Sonne nicht als energiesparende Lichtquelle eingestuft werden sollte. Deswegen wird ab Jänner 2020 EU-weit die Sonne verboten.</p>
-	<p id="text">Gaudeamus igitur
+	<p style=text-align:center id="text">Gaudeamus igitur
 Gaudeamus igitur, iuvenes dum sumus; post iucundam iuventutem, post molestam senectutem nos habebit humus.
 
 Ubi sunt, qui ante nos in mundo fuere? Vadite ad superos, vadite ad inferos ubi iam fuere.
