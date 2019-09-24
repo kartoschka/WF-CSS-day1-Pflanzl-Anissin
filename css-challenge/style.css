@@ -12,8 +12,25 @@ li {
 header {
   padding-bottom: 3vh;
   background: #005;
+  margin-bottom: 10px;
 }
 
 html {
   text-align: center;
+}
+body {
+	margin: 0px;
+}
+header h1 {
+	padding-top:10px;
+	letter-spacing: 10px;
+	font-family: monospace;
+	color: white;
+}
+header a {
+	text-decoration: none;
+	color: white;
+}
+header a:hover{
+	text-decoration: underline;
 }
