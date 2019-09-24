@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+</head>
+<body>
+	<header>
+    <h1>Coding Center</h1>
+    <img id=banner alt=banner src=img/topPic.png>
+    <nav>
+      <ul>
+        <li><a href=home.html>Main Page</a></li>
+        <li><a href=about.html>About Us</a></li>
+        <li><a href=contact.html>(Do Not) Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>(Do not) Contact Us!</h1>
+	<form>
+		<p>Salutation: <input type="radio" name="salutation" value="m" required>Mr.
+			<input type="radio" name="salutation" value="f">Mrs.
+			<input type="radio" name="salutation" value="x">no Answer </p>
+		<p>First Name: <input type="text" name="firstname" required></p>
+		<p>Last Name: <input type="text" name="lastname" required></p>
+		<p>Age: <select name="age">                                
+		      <option value="18-25">18-25</option>
+		      <option value="26-35" selected>26-35</option>                                
+		      <option value="36-45">36-45</option>
+		      <option value="46-55">46-55</option>
+		  </select>
+		</p> 
+		<p><b>Reason for Contact:</b><br>
+		<input type="checkbox" name="reason" value="unhappy">Not happy<br>
+		<input type="checkbox" name="reason" value="better">What we could improve<br>
+		<input type="checkbox" name="reason" value="happy" checked>Yay - you did good!<br>
+		<input type="checkbox" name="reason" value="critic">You could change:<br>
+		<input type="checkbox" name="reason" value="reclam">Money back<br>
+		</p>
+		<p> Message: <br>
+		<textarea name="message" rows="10" cols="30" required></textarea></p>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
