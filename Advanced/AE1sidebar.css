@@ -1,11 +1,12 @@
-.# {
+#sidebar {
 	position: fixed;
 	height: 100%;
 	width: 10vw;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: ###;
+	background-color: #000;
 	padding-top: 20px;
 	overflow-x: hidden;
+	color: white;
 }

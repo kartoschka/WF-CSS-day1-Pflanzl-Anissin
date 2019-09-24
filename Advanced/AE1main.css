@@ -1,4 +1,4 @@
-li {
+.author {
 	list-style: none;
 	padding-right: 5px;
 	float: left;
@@ -7,4 +7,10 @@ li {
 }
 #summary {
 	font-weight: bold,
+}
+#content {
+	margin-left: 10vw;
+}
+li {
+	list-style: none;
 }
