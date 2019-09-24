@@ -34,3 +34,15 @@ header a {
 header a:hover{
 	text-decoration: underline;
 }
+.chatbox {
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	border: solid #005;
+}
+#rr {
+	background-color: #005;
+	filter: invert(100%);
+}
