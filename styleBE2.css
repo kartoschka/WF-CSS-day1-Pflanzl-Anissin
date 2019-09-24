@@ -1,0 +1,17 @@
+div {
+	border-width: 1px;
+	border: dotted blue;
+	margin: 5px;
+}
+#third > p {
+}
+h1 {
+}
+#second {
+}
+img {
+}
+
+#first p {
+  font-size: larger;
+}
